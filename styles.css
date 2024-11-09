@@ -4,7 +4,7 @@ body {
   
   .body-wrap {
     background-color: #fff;
-    width: 600px;
+    width: 1280px;
     min-height: 500px;
     margin: 0 auto;
     font-size: 12px;
@@ -159,7 +159,7 @@ body {
     height: 2px;
     background-color: #dfe3e6;
     list-style: none;
-    padding-left: 210px;
+    padding-left: 560px;
     padding-right: 300px;
   }
   .timeline-container .timeline ol li {

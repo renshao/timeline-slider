@@ -209,10 +209,11 @@ class PRESTimeline {
     _shiftTimeline() {
         // #### We need to fix this part if using this component in different sizes ####
         let timelineW = $(this.base).find('.timeline-container').outerWidth();
-        let timelinePadding = 210;
+        let timelinePadding = 560;
         let timelineCenter = 300;
         let liWidth = 16;
         let activeNodeX = $(this.timelineData[this.activeCardIndex]).position().left;
+        console.log("-activeNodeX: " + -activeNodeX);
         let finalPos = -activeNodeX + timelinePadding;
         $(this.timelineNodeContainer).css('left', finalPos);
         console.log(activeNodeX);
